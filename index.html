@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Simple Web Application By Christopher Lessig</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body id ="main" class="light-theme">
+    <h1 id="title" class="nav">A Simple Web Application By Christopher Lessig</h1>
+    <h2>Here are Some Coding Projects!</h2>
+    <h3>Current Projects</h3>
+
+        <h4>Let's Change The Theme!</h4>
+            <div>
+                <button class="btn">Dark</button>
+            </div>
+        <h4>Here's a counter!</h4>
+            <div>
+                <button id="counter">0</button>
+            </div>
+        <h4>Why not change the Picture?</h4>
+
+<button class="picture" type="button" onclick="toggleImage()">:)</button>
+            <div id="ImgDiv">
+                
+                <img id="image" src="NovaRockafeller.png" alt="Nova Rockafeller" width = "450" height = "450">
+            
+                <script>
+                        function toggleImage()
+                            {
+                                imgsrc = document.getElementById("image").src;
+                                
+                                if (imgsrc.indexOf("NovaRockafeller.png") != -1)
+                                    {
+                                        document.getElementById("image").src = "Gnome.png";
+                                    }
+                                else
+                                    {
+                                        document.getElementById("image").src = "NovaRockafeller.png";
+                                    }
+                            };
+                </script>
+            </div>
+
+    <script src="app.js"></script>
+    <noscript>You need to enable JavaScript to view this full site.</noscript>
+
+</body>
+</html>
+
+<!--Christoper Lessig :)-->

@@ -1,0 +1,93 @@
+:root 
+    {
+        --green: #00FF00;
+        --white: #ffffff;
+        --black: #000000;
+    }
+*
+    {
+        text-align: center;
+        color: var(--fontColor);
+        font-family: helvetica;
+        list-style-type:none;
+    }
+body
+    {
+        background: var(--bg);
+    }
+
+
+.light-theme
+    {
+        --bg: var(--green);
+        --fontColor: var(--black);
+        --btnBg: var(--black);
+        --btnfontColor: var(--white);
+    }
+.dark-theme
+    {
+        --bg: var(--black);
+        --fontColor: var(--green);
+        --btnBg: var(--white);
+        --btnfontColor: var(--black);
+    }
+.btn
+    {
+        top: 20px;
+        left: 250px;
+        height: 50px;
+        width: 500px;
+        border-radius: 10%;
+        border: none;
+        color: var(--btnfontColor);
+        background-color: var(--btnBg);
+    }
+.picture
+    {
+        top: 20px;
+        left: 250px;
+        height: 50px;
+        width: 500px;
+        border-radius: 10%;
+        border: none;
+        color: var(--btnfontColor);
+        background-color: var(--btnBg);
+        
+    }
+#counter
+    {
+        top: 20px;
+        left: 250px;
+        height: 50px;
+        width: 500px;
+        border-radius: 10%;
+        border: none;
+        color: var(--btnfontColor);
+        background-color: var(--btnBg);
+    }
+#ImgDiv
+    {
+        border-radius: 25%;
+    }
+#image
+    {
+        padding-top: 1em ;
+    }
+#main
+    {
+        padding: 1em;
+    }
+#title
+    {
+        font-weight:900;
+        font-style: oblique;
+    }
+.btn:focus
+    {
+        outline-style: none;
+    }
+.nav
+    {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
